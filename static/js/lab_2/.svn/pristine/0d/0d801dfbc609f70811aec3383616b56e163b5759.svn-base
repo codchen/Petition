@@ -1,0 +1,13 @@
+For COMP322 Staff: Remember to read the ../README.txt file for general instructions.
+You can read up on maven and its command online (e.g. http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html#Running_Maven_Tools)
+Below are a list of helpful commands:
+
+To compile:
+> mvn clean compile
+
+To run the unit tests:
+> mvn clean compile test
+
+To run your main program use on of the two commands:
+> mvn clean compile exec:exec -Preciprocal
+
